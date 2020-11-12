@@ -136,6 +136,19 @@ a {
     margin-top: 10px;
   }
 
+  textarea {
+    background: rgba(245, 245, 245, 1);
+    border-radius: 7px 8px 8px 7px;
+    border: 0;
+    font-size: 18px;
+    color: #000000;
+    padding-top: 10px;
+    min-height: 100px;
+    text-indent: 20px;
+    width: 100%;
+    margin-top: 10px;
+  }
+
   .input-show {
     position: relative;
 
@@ -256,7 +269,7 @@ a {
   transition-duration: .4s;
 
   &:hover {
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .16);
     transition-duration: .4s;
     cursor: pointer;
   }
