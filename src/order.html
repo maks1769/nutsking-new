@@ -64,7 +64,7 @@
                 </div>
             </header>
             <main class="main">
-                <div class="checkout">
+                <div class="order">
                     <div class="wrapper container-fluid">
                         <div class="breadcrumbs">
                             <a href="https://nutsking.com.ua">Главная</a>
@@ -98,8 +98,20 @@
                                     Способ доставки:
                                 </span>
                                 <div class="form__group">
-                                    <button class="btn">Курьером</button>
-                                    <button class="btn">Нова пошта</button>
+                                    <button class="btn">
+                                        <img src="i/svg/but-im.svg">
+                                        <div class="wrap">
+                                            Курьером
+                                            <p>50 грн</p>
+                                        </div>
+                                    </button>
+                                    <button class="btn btn-np">
+                                        <img src="i/svg/but-im.svg">
+                                        <div class="wrap">
+                                            Нова Пошта
+                                            <p>50 грн</p>
+                                        </div>
+                                    </button>
                                 </div>
                                 <label class="label">
                                     <span>Отделение Новой почты</span>
@@ -109,9 +121,24 @@
                                     Способ оплаты:
                                 </span>
                                 <div class="form__group">
-                                    <button class="btn">Оплата онлайн</button>
-                                    <button class="btn">Наличными при получении</button>
-                                    <button class="btn">Наложенным платежом</button>
+                                    <button class="btn">
+                                        <img src="i/svg/but-im.svg">
+                                        <div class="wrap">
+                                            Оплата <br>онлайн
+                                        </div>
+                                    </button>
+                                    <button class="btn">
+                                        <img src="i/svg/but-im.svg">
+                                        <div class="wrap">
+                                            Наличными <br>при <br>получении
+                                        </div>
+                                    </button>
+                                    <button class="btn">
+                                        <img src="i/svg/but-im.svg">
+                                        <div class="wrap">
+                                            Наложенным <br>платежом
+                                        </div>
+                                    </button>
                                 </div>
                                 <label class="label-checkbox">
                                     не перезванивать мне для подтверждения заказа
@@ -120,6 +147,37 @@
                                 </label>
                                 <button type="submit" class="btn btn-primary form__btn">Подтвердить заказ</button>
                             </form>
+                            <div class="order__part">
+                                <span>Ваш заказ</span>
+                                <div class="order__list">
+                                    <div class="order__item">
+                                        <img src="i/orders1.png">
+                                        <div class="order__item--content">
+                                            <p>Бразильский орех очищенный</p>
+                                            <p>Количество: 1 уп.</p>
+                                            <p class="price">80 грн</p>
+                                        </div>
+                                    </div>
+                                    <div class="order__item">
+                                        <img src="i/orders1.png">
+                                        <div class="order__item--content">
+                                            <p>Бразильский орех очищенный</p>
+                                            <p>Количество: 1 уп.</p>
+                                            <p class="price">80 грн</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bonuses">
+                                    <label class="label">
+                                        <span>Бонусы</span>
+                                        <input type="text" placeholder="Бонусы">
+                                    </label>
+                                    <span>15.40 Доступно</span>
+                                    <div class="sum">
+                                        <p>Сумма заказа: <span>240 грн</span></p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
