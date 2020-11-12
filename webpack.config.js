@@ -35,7 +35,7 @@ module.exports = (env = {mode: 'development'}) => {
                 template: path.resolve(__dirname, 'src/index.html')
             }),
             // new HtmlWebpackPlugin({
-                // template: path.resolve(__dirname, 'src/login.html')
+            //     template: path.resolve(__dirname, 'src/catalog.html')
             // }),
 			// new HtmlWebpackPlugin({
                // template: path.resolve(__dirname, 'src/sign-up1.html')
