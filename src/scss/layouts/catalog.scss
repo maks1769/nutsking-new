@@ -26,13 +26,19 @@
         }
 
         .btn-product {
-          display: block;
+          display: flex;
         }
       }
     }
 
     .btn-product {
       display: none;
+    }
+
+    .slick-list {
+      @media screen and (min-width: 1200px) {
+        padding: 40px 0;
+      }
     }
   }
 
